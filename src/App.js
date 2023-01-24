@@ -8,6 +8,7 @@ function App() {
       tag={user.tag}
       location={user.location}
       avatar={user.avatar}
+      stats={user.stats}
        />
     </div>
   );

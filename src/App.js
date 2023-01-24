@@ -1,10 +1,9 @@
-import './App.css';
 import Profile from './components/Profile/Profile';
-import user from '../user.json'
+import user from './data/user.json'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Profile username={user.username}
       tag={user.tag}
       location={user.location}

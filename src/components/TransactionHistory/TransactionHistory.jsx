@@ -12,10 +12,10 @@ const TransactionHistory = ({ items }) => {
       </thead>
 
       <tbody>
-        {items.map(({ id, type, amount, currency }) => {
+        {items.map(({ id, type, amount, currency }, index) => {
           return (
-            <tr key={id}>
-              <td>{type}</td>
+            <tr key={id} style={{background: index % 2 === 0 ?'#eee' : '#fff'}}>
+              <td style={{verticalAlign: 'inherit'}}>{type}</td>
               <td>{amount}</td>
               <td>{currency}</td>
             </tr>

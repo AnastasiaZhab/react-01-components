@@ -1,0 +1,18 @@
+.todolist {
+display: block;
+}
+
+.item {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.button {
+    height: 20px;
+    margin-left: 20px;
+}
+
+.text {
+    margin: 0;
+}
